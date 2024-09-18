@@ -246,7 +246,7 @@ def build_transformer(input_vocab_size:int,out_vocab_size:int,input_seq_len:int,
 
 
 
-
+'''
 sentence = 'My name is srikant'
 tokens = sentence.lower().split()
 vocab_size =len(set(tokens))
@@ -269,7 +269,7 @@ layer_norm =(layer_norm.forward(pos_embedding))
 ffn= FeedForwardBlock(512,2048,0.3)
 feed_forward_nn = ffn.forward(layer_norm)
 print(feed_forward_nn)
-
+'''
 
 
 
